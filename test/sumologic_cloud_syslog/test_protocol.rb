@@ -16,7 +16,7 @@ require 'helper'
 require 'date'
 require 'sumologic_cloud_syslog/protocol'
 
-class Protocol < Test::Unit::TestCase
+class ProtocolTest < Test::Unit::TestCase
   def test_header_defaults
     h = SumologicCloudSyslog::Header.new
 

@@ -16,7 +16,7 @@ require 'helper'
 require 'ssl'
 require 'sumologic_cloud_syslog/ssl_transport'
 
-class SSLTransport < Test::Unit::TestCase
+class SSLTransportTest < Test::Unit::TestCase
   include SSLTestHelper
 
   def test_ok_connection
