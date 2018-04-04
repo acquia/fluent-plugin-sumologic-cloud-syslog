@@ -16,7 +16,7 @@ require 'helper'
 require 'date'
 require 'sumologic_cloud_syslog/logger'
 
-class Logger < Test::Unit::TestCase
+class LoggerTest < Test::Unit::TestCase
   def test_logger_defaults
     io = StringIO.new
     l = SumologicCloudSyslog::Logger.new(io, "TOKEN")
